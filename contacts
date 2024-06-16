@@ -1,0 +1,12 @@
+#include <cs50.h>
+#include <stdio.h>
+
+Int main(void)
+{
+  String name = get_string{"What is your name? "};
+  Int age = get_int{"How old are you? "};
+  Int number = get_int{"What is your phone number? "};
+printf{"Name: %S\n" name};
+printf{"Age: %i\n"} age;
+printf{"Number: %i\n"} number;
+}
