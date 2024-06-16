@@ -1,6 +1,8 @@
+#include <cs50.h>
 #include <stdio.h>
 
 Int main (void)
 {
-  PrintF{"Hello, World.\n};
+  String name = Get_String{"What is your name? "};
+  PrintF{"Hello, %S\n", Name};
 }
