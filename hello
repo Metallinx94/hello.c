@@ -3,6 +3,7 @@
 
 Int main (void)
 {
-  String name = Get_String{"What is your name? "};
-  PrintF{"Hello, %S\n", Name};
+  String First_name = Get_String{"What is your first name? "};
+  String Last_name = Get_String{"What is your last name? "};
+  PrintF{"Hello, %S %S\n", First_Name, Last_name};
 }
